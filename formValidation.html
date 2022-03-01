@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Practice Form</title>
+  </head>
+
+  <header>Registration Form</header>
+
+  <form>
+    <p>
+      <label for="user id">User id:</label>
+      <input type="number" id="user id" name="user_id" required />
+    </p>
+    <p>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required />
+    </p>
+    <p>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />  
+    </p>
+    <p>
+      <label for="address">Address:</label>  
+      <input id="address" name="address" optional />
+    </p>
+    <p>
+      <label for="country">Country:</label>  
+      <input  list="country" type="text" required />
+        <datalist id="country">
+            <option value="South Africa">South Africa</option>
+        </datalist>
+    </p>
+    <p>
+      <label for="zip-code">ZIP code:</label>
+      <input type="numbers" id="zip-code" name="zip-code" required />
+    </p>
+    <p>
+      <label for="e-mail">E-mail</label>
+      <input type="email" id="e-mail" name="e-mail" required />
+    </p>
+    <p>
+      <label for="sex">Sex:</label>
+      <input type="checkbox" id="male" name="male" />
+      Male
+      <input type="checkbox" id="female" name="female" />
+      Female
+    </p>
+    <p>
+      <label for="languages">Languages:</label>
+      <input type="radio" id="english" name="english" />
+      English
+      <input type="radio" id="afrikaans" name="afrikaans" />
+      Afrikaans
+    </p>
+    <p>
+      <label for="submit"></label>  
+      <input type="submit" id="submit" name="submit" />
+    </p>
+  </form>
+</html>
